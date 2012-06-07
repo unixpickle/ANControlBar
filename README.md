@@ -8,4 +8,4 @@ ANControlBar is an easy-to-use toolbar class which looks best under an NSTableVi
 Usage
 =====
 
-Using ANControlBar is rather straightforward.  First, add the ANControlBar/ directory to your project, making sure to add it to the desired target.  Next, simple create an instance of ANControlBar using initWithFrame:, on with Interface Builder.  Finally, add buttons to it using the addButton: method.  See `ControlBar/AppDelegate.m` for more details.
+Using ANControlBar is rather straightforward.  First, add the `ANControlBar/` directory to your project, making sure to add it to the desired target.  Next, simply create an instance of ANControlBar using initWithFrame:, or with Interface Builder.  Finally, add buttons to it using the addButton: method.  See `ControlBar/AppDelegate.m` for more details.
