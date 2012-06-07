@@ -13,9 +13,9 @@
 		FA73FF8215802E4B00D64D76 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA73FF8015802E4B00D64D76 /* Credits.rtf */; };
 		FA73FF8515802E4B00D64D76 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */; };
 		FA73FF8815802E4B00D64D76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73FF8615802E4B00D64D76 /* MainMenu.xib */; };
-		FA73FF9015802E6100D64D76 /* ANControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73FF8F15802E6100D64D76 /* ANControlBar.m */; };
-		FADC5BF81580DC1A0043886B /* ANBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5BF71580DC1A0043886B /* ANBarButton.m */; };
-		FADC5BFC1580ED220043886B /* ANAddRemoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */; };
+		FADC5C0E1580F4AA0043886B /* ANAddRemoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5C091580F4AA0043886B /* ANAddRemoveButton.m */; };
+		FADC5C0F1580F4AA0043886B /* ANBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5C0B1580F4AA0043886B /* ANBarButton.m */; };
+		FADC5C101580F4AA0043886B /* ANControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5C0D1580F4AA0043886B /* ANControlBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		FA73FF8315802E4B00D64D76 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FA73FF8715802E4B00D64D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		FA73FF8E15802E6100D64D76 /* ANControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANControlBar.h; sourceTree = "<group>"; };
-		FA73FF8F15802E6100D64D76 /* ANControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANControlBar.m; sourceTree = "<group>"; };
-		FADC5BF61580DC1A0043886B /* ANBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBarButton.h; sourceTree = "<group>"; };
-		FADC5BF71580DC1A0043886B /* ANBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBarButton.m; sourceTree = "<group>"; };
-		FADC5BFA1580ED220043886B /* ANAddRemoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ANAddRemoveButton.h; sourceTree = "<group>"; };
-		FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAddRemoveButton.m; sourceTree = "<group>"; };
+		FADC5C081580F4AA0043886B /* ANAddRemoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAddRemoveButton.h; sourceTree = "<group>"; };
+		FADC5C091580F4AA0043886B /* ANAddRemoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAddRemoveButton.m; sourceTree = "<group>"; };
+		FADC5C0A1580F4AA0043886B /* ANBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBarButton.h; sourceTree = "<group>"; };
+		FADC5C0B1580F4AA0043886B /* ANBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBarButton.m; sourceTree = "<group>"; };
+		FADC5C0C1580F4AA0043886B /* ANControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANControlBar.h; sourceTree = "<group>"; };
+		FADC5C0D1580F4AA0043886B /* ANControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANControlBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		FA73FF6215802E4B00D64D76 = {
 			isa = PBXGroup;
 			children = (
+				FADC5C071580F4AA0043886B /* ANControlBar */,
 				FA73FF7715802E4B00D64D76 /* ControlBar */,
 				FA73FF7015802E4B00D64D76 /* Frameworks */,
 				FA73FF6E15802E4B00D64D76 /* Products */,
@@ -93,12 +94,6 @@
 			children = (
 				FA73FF8315802E4B00D64D76 /* ANAppDelegate.h */,
 				FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */,
-				FA73FF8E15802E6100D64D76 /* ANControlBar.h */,
-				FA73FF8F15802E6100D64D76 /* ANControlBar.m */,
-				FADC5BF61580DC1A0043886B /* ANBarButton.h */,
-				FADC5BF71580DC1A0043886B /* ANBarButton.m */,
-				FADC5BFA1580ED220043886B /* ANAddRemoveButton.h */,
-				FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */,
 				FA73FF8615802E4B00D64D76 /* MainMenu.xib */,
 				FA73FF7815802E4B00D64D76 /* Supporting Files */,
 			);
@@ -115,6 +110,19 @@
 				FA73FF8015802E4B00D64D76 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADC5C071580F4AA0043886B /* ANControlBar */ = {
+			isa = PBXGroup;
+			children = (
+				FADC5C081580F4AA0043886B /* ANAddRemoveButton.h */,
+				FADC5C091580F4AA0043886B /* ANAddRemoveButton.m */,
+				FADC5C0A1580F4AA0043886B /* ANBarButton.h */,
+				FADC5C0B1580F4AA0043886B /* ANBarButton.m */,
+				FADC5C0C1580F4AA0043886B /* ANControlBar.h */,
+				FADC5C0D1580F4AA0043886B /* ANControlBar.m */,
+			);
+			path = ANControlBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +191,9 @@
 			files = (
 				FA73FF7E15802E4B00D64D76 /* main.m in Sources */,
 				FA73FF8515802E4B00D64D76 /* ANAppDelegate.m in Sources */,
-				FA73FF9015802E6100D64D76 /* ANControlBar.m in Sources */,
-				FADC5BF81580DC1A0043886B /* ANBarButton.m in Sources */,
-				FADC5BFC1580ED220043886B /* ANAddRemoveButton.m in Sources */,
+				FADC5C0E1580F4AA0043886B /* ANAddRemoveButton.m in Sources */,
+				FADC5C0F1580F4AA0043886B /* ANBarButton.m in Sources */,
+				FADC5C101580F4AA0043886B /* ANControlBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
