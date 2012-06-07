@@ -7,9 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ANControlBar.h"
+#import "ANAddRemoveButton.h"
 
-@interface ANAppDelegate : NSObject <NSApplicationDelegate>
+@interface ANAppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate, NSTableViewDataSource> {
+    IBOutlet NSTableView * tableView;
+    IBOutlet ANControlBar * controlBar;
+    __unsafe_unretained IBOutlet NSWindow * window;
+    
+    NSMutableArray * items;
+    ANAddRemoveButton * removeButton;
+    ANAddRemoveButton * addButton;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, assign) IBOutlet NSWindow * window;
+
+- (void)addPressed:(id)sender;
+- (void)removePressed:(id)sender;
 
 @end

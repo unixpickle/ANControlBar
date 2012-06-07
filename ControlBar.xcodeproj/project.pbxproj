@@ -13,6 +13,9 @@
 		FA73FF8215802E4B00D64D76 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA73FF8015802E4B00D64D76 /* Credits.rtf */; };
 		FA73FF8515802E4B00D64D76 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */; };
 		FA73FF8815802E4B00D64D76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73FF8615802E4B00D64D76 /* MainMenu.xib */; };
+		FA73FF9015802E6100D64D76 /* ANControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73FF8F15802E6100D64D76 /* ANControlBar.m */; };
+		FADC5BF81580DC1A0043886B /* ANBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5BF71580DC1A0043886B /* ANBarButton.m */; };
+		FADC5BFC1580ED220043886B /* ANAddRemoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,20 @@
 		FA73FF7415802E4B00D64D76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FA73FF7515802E4B00D64D76 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FA73FF7615802E4B00D64D76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FA73FF7915802E4B00D64D76 /* ControlBar-Info.plist */ = {isa = PBXFileReference; path = "ControlBar-Info.plist"; sourceTree = "<group>"; };
+		FA73FF7915802E4B00D64D76 /* ControlBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlBar-Info.plist"; sourceTree = "<group>"; };
 		FA73FF7B15802E4B00D64D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA73FF7D15802E4B00D64D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA73FF7F15802E4B00D64D76 /* ControlBar-Prefix.pch */ = {isa = PBXFileReference; path = "ControlBar-Prefix.pch"; sourceTree = "<group>"; };
+		FA73FF7F15802E4B00D64D76 /* ControlBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControlBar-Prefix.pch"; sourceTree = "<group>"; };
 		FA73FF8115802E4B00D64D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		FA73FF8315802E4B00D64D76 /* ANAppDelegate.h */ = {isa = PBXFileReference; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		FA73FF8315802E4B00D64D76 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FA73FF8715802E4B00D64D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA73FF8E15802E6100D64D76 /* ANControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANControlBar.h; sourceTree = "<group>"; };
+		FA73FF8F15802E6100D64D76 /* ANControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANControlBar.m; sourceTree = "<group>"; };
+		FADC5BF61580DC1A0043886B /* ANBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBarButton.h; sourceTree = "<group>"; };
+		FADC5BF71580DC1A0043886B /* ANBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBarButton.m; sourceTree = "<group>"; };
+		FADC5BFA1580ED220043886B /* ANAddRemoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ANAddRemoveButton.h; sourceTree = "<group>"; };
+		FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAddRemoveButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,12 @@
 			children = (
 				FA73FF8315802E4B00D64D76 /* ANAppDelegate.h */,
 				FA73FF8415802E4B00D64D76 /* ANAppDelegate.m */,
+				FA73FF8E15802E6100D64D76 /* ANControlBar.h */,
+				FA73FF8F15802E6100D64D76 /* ANControlBar.m */,
+				FADC5BF61580DC1A0043886B /* ANBarButton.h */,
+				FADC5BF71580DC1A0043886B /* ANBarButton.m */,
+				FADC5BFA1580ED220043886B /* ANAddRemoveButton.h */,
+				FADC5BFB1580ED220043886B /* ANAddRemoveButton.m */,
 				FA73FF8615802E4B00D64D76 /* MainMenu.xib */,
 				FA73FF7815802E4B00D64D76 /* Supporting Files */,
 			);
@@ -168,6 +183,9 @@
 			files = (
 				FA73FF7E15802E4B00D64D76 /* main.m in Sources */,
 				FA73FF8515802E4B00D64D76 /* ANAppDelegate.m in Sources */,
+				FA73FF9015802E6100D64D76 /* ANControlBar.m in Sources */,
+				FADC5BF81580DC1A0043886B /* ANBarButton.m in Sources */,
+				FADC5BFC1580ED220043886B /* ANAddRemoveButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +307,7 @@
 				FA73FF8D15802E4B00D64D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
